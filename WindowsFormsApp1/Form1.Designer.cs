@@ -52,11 +52,19 @@
             // 
             // button2
             // 
+
+            this.button3.Location = new System.Drawing.Point(79, 347);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Norlands";
+
             this.button2.Location = new System.Drawing.Point(301, 356);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "Angelina";
+
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
